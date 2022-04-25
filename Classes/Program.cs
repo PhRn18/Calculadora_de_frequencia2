@@ -15,6 +15,8 @@ namespace Calculadora_de_frequencia2
 
             Console.WriteLine("A calculadora foi iniciada. Digite o local do arquivo: ");
             local_do_arquivo = Console.ReadLine();
+
+            Tratamento_do_arquivo conversao = new Tratamento_do_arquivo(local_do_arquivo);
         }
     }
 }
